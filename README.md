@@ -76,7 +76,7 @@ python3 -m http.server 8080 --directory dist
 
 将 `dist` 目录中的文件上传到静态网站托管平台，并让 `index.html` 位于站点根目录。网站采用 Hash 路由，不需要后端接口或 SPA 路由回退配置。
 
-已有 Sites 部署：<https://project-practice-atlas.wigglyowlet32.chatgpt.site>。该部署目前为私有访问；本仓库开源不改变其访问权限。需要公开演示时，可自行将 `dist` 部署为公开站点。
+在线浏览：[构建手记 · 全栈项目实践](https://project-practice-atlas.wigglyowlet32.chatgpt.site)。网站已开放公开访问，可直接分享链接。
 
 ## 原始文档
 

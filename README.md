@@ -74,9 +74,11 @@ python3 -m http.server 8080 --directory dist
 
 ## 静态部署
 
+本仓库使用 GitHub Actions 自动发布 `dist` 目录到 GitHub Pages。向 `main` 推送网站文件变更后，会自动更新线上网站；也可以在 Actions 中手动运行 `Publish tutorial website`。
+
 将 `dist` 目录中的文件上传到静态网站托管平台，并让 `index.html` 位于站点根目录。网站采用 Hash 路由，不需要后端接口或 SPA 路由回退配置。
 
-在线浏览：[构建手记 · 全栈项目实践](https://project-practice-atlas.wigglyowlet32.chatgpt.site)。网站已开放公开访问，可直接分享链接。
+在线浏览：[构建手记 · 全栈项目实践](https://doublett523.github.io/project-practice-atlas/)。网站已开放公开访问，可直接分享链接。
 
 ## 原始文档
 
